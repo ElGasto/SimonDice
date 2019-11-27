@@ -35,21 +35,39 @@ body {
   height: 100%;
   -webkit-box-shadow: 5px 5px 23px -15px rgba(0, 0, 0, 0.75);
           box-shadow: 5px 5px 23px -15px rgba(0, 0, 0, 0.75);
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
 }
 
 #cuadrado1 {
   background-color: blue;
 }
 
+#cuadrado1:hover {
+  background-color: #9999ff;
+}
+
 #cuadrado2 {
   background-color: red;
+}
+
+#cuadrado2:hover {
+  background-color: #ff9999;
 }
 
 #cuadrado3 {
   background-color: green;
 }
 
+#cuadrado3:hover {
+  background-color: #1aff1a;
+}
+
 #cuadrado4 {
   background-color: yellow;
+}
+
+#cuadrado4:hover {
+  background-color: #ffff99;
 }
 /*# sourceMappingURL=main.css.map */
