@@ -1,0 +1,33 @@
+html,
+body {
+    height: 100%;
+}
+
+.titulo {
+    /*    margin-bottom: 20px; */
+    background-color: darkcyan;
+    color: darkblue;
+}
+
+.cont-principal {
+    height: 93%;
+    padding: 0 1em;
+    .row-principal {
+        height: 100%;
+    }
+    .opciones {
+        border: 2px solid;
+    }
+    .simon-dice {
+        .row {
+            height: 50%;
+        }
+        .col-6 {
+            height: 100%;
+            box-shadow: 5px 5px 23px -15px rgba(0, 0, 0, 0.75);
+        }
+        text-align: center!important;
+        border: 2px solid;
+        padding: 5%;
+    }
+}
