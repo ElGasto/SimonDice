@@ -1,10 +1,16 @@
+// Colores de Simon Dice
+$color1: blue;
+$color2: red;
+$color3: green;
+$color4: yellow;
+// SCSS Principal
 html,
 body {
     height: 100%;
 }
 
 .titulo {
-    /*    margin-bottom: 20px; */
+    //    margin-bottom: 20px; 
     background-color: darkcyan;
     color: darkblue;
 }
@@ -30,4 +36,20 @@ body {
         border: 2px solid;
         padding: 5%;
     }
+}
+
+#cuadrado1 {
+    background-color: $color1;
+}
+
+#cuadrado2 {
+    background-color: $color2;
+}
+
+#cuadrado3 {
+    background-color: $color3;
+}
+
+#cuadrado4 {
+    background-color: $color4;
 }

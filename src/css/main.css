@@ -4,7 +4,6 @@ body {
 }
 
 .titulo {
-  /*    margin-bottom: 20px; */
   background-color: darkcyan;
   color: darkblue;
 }
@@ -36,5 +35,21 @@ body {
   height: 100%;
   -webkit-box-shadow: 5px 5px 23px -15px rgba(0, 0, 0, 0.75);
           box-shadow: 5px 5px 23px -15px rgba(0, 0, 0, 0.75);
+}
+
+#cuadrado1 {
+  background-color: blue;
+}
+
+#cuadrado2 {
+  background-color: red;
+}
+
+#cuadrado3 {
+  background-color: green;
+}
+
+#cuadrado4 {
+  background-color: yellow;
 }
 /*# sourceMappingURL=main.css.map */
