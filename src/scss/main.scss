@@ -9,6 +9,10 @@ body {
     height: 100%;
 }
 
+h3 {
+    font-size: medium;
+}
+
 .titulo {
     //    margin-bottom: 20px; 
     background-color: darkcyan;
@@ -31,6 +35,7 @@ body {
         .col-6 {
             height: 100%;
             box-shadow: 5px 5px 23px -15px rgba(0, 0, 0, 0.75);
+            transition: background-color 0.5s ease-out;
         }
         text-align: center!important;
         border: 2px solid;
@@ -40,16 +45,28 @@ body {
 
 #cuadrado1 {
     background-color: $color1;
+    &:hover {
+        background-color: lighten($color1, 30%)
+    }
 }
 
 #cuadrado2 {
     background-color: $color2;
+    &:hover {
+        background-color: lighten($color2, 30%)
+    }
 }
 
 #cuadrado3 {
     background-color: $color3;
+    &:hover {
+        background-color: lighten($color3, 30%)
+    }
 }
 
 #cuadrado4 {
     background-color: $color4;
+    &:hover {
+        background-color: lighten($color4, 30%)
+    }
 }
